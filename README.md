@@ -38,7 +38,11 @@ design).
 
 
 ## Use
-    php bin/console life
+    php bin/console app:life
+    php bin/console app:life --days=5
+    php bin/console app:life --all=y
+    php bin/console app:life --days=5 --animate=y
+    php bin/console app:life --animate=y --random=y --all=y
 
 ## Run unit-tests    
     php ./vendor/bin/phpunit
